@@ -1,0 +1,20 @@
+🚀 Excited to share my Python Capstone Project: Personal Expense Tracker!
+
+I built this application using Python, Streamlit, SQLite, and Pandas.
+
+Key features:
+• Add and manage income and expenses
+• Categorize transactions
+• Calculate total income, expenses, and balance
+• View spending insights through charts
+• Export transaction history as a CSV file
+• Store records using an SQLite database
+
+This project helped me practice Python, modular programming, database operations, input validation, exception handling, and logging.
+
+GitHub: [PASTE YOUR GITHUB REPOSITORY LINK]
+Live Demo: [PASTE YOUR DEPLOYED APP LINK]
+
+I’m looking forward to learning more and building better projects.
+
+#Python #CapstoneProject #Streamlit #SQLite #Pandas #LearningByDoing

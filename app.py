@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 from datetime import date
-from expense_tracker.database import init_db, add_transaction, get_transactions, delete_transaction
-from expense_tracker.analytics import summarize, category_totals
-from expense_tracker.validators import validate_amount, validate_description
-from expense_tracker.logger_config import get_logger
+from database import init_db, add_transaction, get_transactions, delete_transaction
+from analytics import summarize, category_totals
+from validators import validate_amount, validate_description
+from logger_config import get_logger
 
 logger = get_logger()
 st.set_page_config(page_title="Expense Tracker", page_icon="💰", layout="wide")

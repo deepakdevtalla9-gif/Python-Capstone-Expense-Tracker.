@@ -38,7 +38,11 @@ with tab_add:
                 if transaction_type == "Expense"
                 else ["Salary", "Freelance", "Gift", "Other Income"]
             )
-            category = st.selectbox("Category", categories)
+            category = st.selectbox(
+    "Category",
+    categories,
+    key=f"category_{transaction_type}"
+            )
             description = st.text_input("Description", placeholder="e.g. Lunch, bus pass, monthly salary")
         submitted = st.form_submit_button("Save transaction", type="primary")
         if submitted:
